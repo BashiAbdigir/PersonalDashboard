@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html class="bg-orange-200">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Personal Dashboard</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <script defer src='GuiScript.js'></script>
+    <script defer src="CanvasScript.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+15&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans&family=Schoolbell&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+   <div id="mainBody">
+    <div id="sectionOne">
+        <h3>Personal Dashboard</h3>
+        <span id="spanOne"><img  id="closeImg" src="https://www.clker.com/cliparts/5/e/d/8/1225770321258316602emyller_close_button.svg.hi.png" alt=""></span>
+    </div>
+    <div id="sectionTwo">
+
+        <div id="halfOne">
+            <canvas id="canvas"></canvas>
+        </div>
+
+        <div id="halfTwo">
+            <button id="runner">click me</button>
+        </div>
+
+    </div>
+    <div id="sectionThree">
+        <img class="favorites" src="movies/Ready Player One.png" alt="Ready Player One">
+        <img class="favorites" src="movies/Wreck-It Ralph.png" alt="Wreck-It Ralph">
+        <img class="favorites" src="movies/Us.png" alt="Us">
+        <img class="favorites" src="movies/Flipped.png" alt="Flipped">
+        <img class="favorites" src="movies/Scream.png" alt="Scream">
+        <img class="favorites" src="movies/Saw.png" alt="Saw">
+        <img class="favorites" src="movies/Smile 2.png" alt="Smile 2">
+        <img class="favorites" src="movies/The Hate You Give.png" alt="The Hate You Give">
+    </div>
+
+    <div id="sectionFour">
+        <span id="spanTwo">Left</span>
+        <span id="favoriteSpan">Favorite movies</span>
+        <span id="spanThree">Right</span>
+    </div>
+   </div>
+
+   <div id="canvasImages">
+    <img id="confused" src="canvasPics/confused.png" alt="">
+    <img id="happy" src="canvasPics/happy.png" alt="">
+    <img  id="excited" src="canvasPics/excited.png" alt="">
+   </div>
+</body>
+</html>
